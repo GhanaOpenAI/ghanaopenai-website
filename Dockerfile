@@ -4,27 +4,26 @@ FROM node:22-alpine AS builder
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+RUN npm install --no-audit --no-fund
 
 COPY . .
 
 RUN npm run build
 
-# Stage 2: Production runtime
+# Stage 2: Ultra-lightweight Production Runtime
 FROM node:22-alpine AS runner
 
 WORKDIR /app
 
-RUN apk add --no-cache curl
+RUN apk add --no-cache curl && \
+    npm install express compression --no-audit --no-fund && \
+    npm cache clean --force
 
 ENV NODE_ENV=production
 ENV PORT=3000
 
-COPY package*.json ./
-RUN npm install --omit=dev && npm cache clean --force
-
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/server.mjs ./server.mjs
+COPY server.mjs ./server.mjs
 
 EXPOSE 3000
 
