@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Ghana Search Portal",
+    "description": "National information retrieval engine & MCP server searching 164 government agencies, GhaLII, KNUST, and news in < 4.0s.",
+    "href": "https://search.ghanaopenai.org",
+    "badge": "Live Production",
+    "likes": 42
+  },
+  {
+    "name": "Nsanku ASR Benchmark",
+    "description": "Standardized evaluation leaderboard measuring Word Error Rate (WER) across 41 Ghanaian language varieties.",
+    "href": "https://huggingface.co/spaces/ghanaopenai/nsanku-asr-benchmark",
+    "badge": "Benchmark",
+    "likes": 12
+  },
+  {
+    "name": "Gloss-MT Translation Demo",
+    "description": "Dictionary-grounded machine translation demo generating English to Twi translations with CoT explanations.",
+    "href": "https://huggingface.co/spaces/ghanaopenai/gloss-mt",
+    "badge": "Interactive Demo",
+    "likes": 8
+  },
+  {
+    "name": "Poto-TTS Voice Synthesizer",
+    "description": "Ultra-fast Kokoro-based Ghanaian English speech synthesis with 44,000+ local names and place pronunciations.",
+    "href": "https://huggingface.co/spaces/ghanaopenai/poto-tts",
+    "badge": "Voice Demo",
+    "likes": 15
+  },
+  {
+    "name": "Nsanku MMLU Leaderboard",
+    "description": "Comprehensive academic and cultural knowledge benchmark evaluating LLMs on Ghanaian reasoning.",
+    "href": "https://huggingface.co/spaces/ghanaopenai/nsanku-mmlu-leaderboard",
+    "badge": "Leaderboard",
+    "likes": 9
+  },
+  {
+    "name": "Ghana Speech-ID",
+    "description": "Real-time acoustic speech classifier identifying 42 Ghanaian and West African languages from audio clips.",
+    "href": "https://huggingface.co/spaces/ghanaopenai/ghana-speech-id",
+    "badge": "Speech ID",
+    "likes": 7
+  }
+]

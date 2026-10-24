@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "ghana-speech",
+    "name": "Ghana Speech Corpus",
+    "repo_id": "ghanaopenai/ghana-speech",
+    "description": "Over 9,600+ downloads: The core audio corpus spanning 43 Ghanaian language varieties.",
+    "downloads": 9627,
+    "likes": 0,
+    "tags": [
+      "Speech",
+      "Audio",
+      "Corpus"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-speech"
+  },
+  {
+    "id": "kasem-speech-text-parallel",
+    "name": "Kasem Speech-Text Parallel",
+    "repo_id": "ghanaopenai/kasem-speech-text-parallel",
+    "description": "Over 1,700+ downloads: Parallel speech dataset for the Kasem language of Upper East Ghana.",
+    "downloads": 1737,
+    "likes": 0,
+    "tags": [
+      "Kasem",
+      "Parallel",
+      "Speech"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/kasem-speech-text-parallel"
+  },
+  {
+    "id": "twi-health-asr-gemini-500hrs",
+    "name": "Twi Health ASR (500 Hours)",
+    "repo_id": "ghanaopenai/twi-health-asr-gemini-500hrs",
+    "description": "Medical and health consultations transcribed for clinical speech recognition.",
+    "downloads": 1588,
+    "likes": 0,
+    "tags": [
+      "Healthcare",
+      "Clinical",
+      "ASR"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-health-asr-gemini-500hrs"
+  },
+  {
+    "id": "asante-twi-bible-speech-text",
+    "name": "Asante Twi Speech-Text",
+    "repo_id": "ghanaopenai/asante-twi-bible-speech-text",
+    "description": "Clean, aligned Asante Twi speech and Bible transcripts for high-fidelity speech training.",
+    "downloads": 1388,
+    "likes": 1,
+    "tags": [
+      "TTS",
+      "ASR",
+      "Akan"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/asante-twi-bible-speech-text"
+  },
+  {
+    "id": "ghana-english-asr-2700hrs",
+    "name": "Ghana English ASR (2,700 Hours)",
+    "repo_id": "ghanaopenai/ghana-english-asr-2700hrs",
+    "description": "2,700 hours of Ghanaian accented English speech paired with transcripts for robust ASR.",
+    "downloads": 991,
+    "likes": 8,
+    "tags": [
+      "ASR",
+      "Accented Speech",
+      "Benchmark"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-english-asr-2700hrs"
+  },
+  {
+    "id": "twi-llm-reasoning-dataset-1k",
+    "name": "Twi LLM Reasoning Dataset",
+    "repo_id": "ghanaopenai/twi-llm-reasoning-dataset-1k",
+    "description": "1,000 verified reasoning problems with Twi chain-of-thought solutions.",
+    "downloads": 207,
+    "likes": 14,
+    "tags": [
+      "Reasoning",
+      "CoT",
+      "LLM"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-llm-reasoning-dataset-1k"
+  },
+  {
+    "id": "ghana-farmer-qa",
+    "name": "Ghana Farmer QA",
+    "repo_id": "ghanaopenai/ghana-farmer-qa",
+    "description": "150,000+ agricultural question-and-answer pairs across Ghanaian farming communities.",
+    "downloads": 66,
+    "likes": 0,
+    "tags": [
+      "Agriculture",
+      "Farmers",
+      "MoFA"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-farmer-qa"
+  },
+  {
+    "id": "ghana-search-corpus",
+    "name": "Ghana Search Corpus",
+    "repo_id": "ghanaopenai/ghana-search-corpus",
+    "description": "Offline factual national knowledge corpus extracted from 160+ Ghanaian institutions.",
+    "downloads": 27,
+    "likes": 0,
+    "tags": [
+      "RAG",
+      "Offline Pack",
+      "Legal"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-search-corpus"
+  },
+  {
+    "id": "ghana-speech-ipa",
+    "name": "Ghana Speech Ipa",
+    "repo_id": "ghanaopenai/ghana-speech-ipa",
+    "description": "Curated dataset ghana-speech-ipa published by Ghana Open AI",
+    "downloads": 3430,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-speech-ipa"
+  },
+  {
+    "id": "ghana-synthetic-speech-zephyr",
+    "name": "Ghana Synthetic Speech Zephyr",
+    "repo_id": "ghanaopenai/ghana-synthetic-speech-zephyr",
+    "description": "Curated dataset ghana-synthetic-speech-zephyr published by Ghana Open AI",
+    "downloads": 2253,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-synthetic-speech-zephyr"
+  },
+  {
+    "id": "kumawood-speech-transcriptions-v2",
+    "name": "Kumawood Speech Transcriptions V2",
+    "repo_id": "ghanaopenai/kumawood-speech-transcriptions-v2",
+    "description": "Curated dataset kumawood-speech-transcriptions-v2 published by Ghana Open AI",
+    "downloads": 1882,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/kumawood-speech-transcriptions-v2"
+  },
+  {
+    "id": "kumawood-speech-transcriptions",
+    "name": "Kumawood Speech Transcriptions",
+    "repo_id": "ghanaopenai/kumawood-speech-transcriptions",
+    "description": "Curated dataset kumawood-speech-transcriptions published by Ghana Open AI",
+    "downloads": 1265,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/kumawood-speech-transcriptions"
+  },
+  {
+    "id": "voxcpm2-ghana-speech-ipa-latents",
+    "name": "Voxcpm2 Ghana Speech Ipa Latents",
+    "repo_id": "ghanaopenai/voxcpm2-ghana-speech-ipa-latents",
+    "description": "Curated dataset voxcpm2-ghana-speech-ipa-latents published by Ghana Open AI",
+    "downloads": 1160,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/voxcpm2-ghana-speech-ipa-latents"
+  },
+  {
+    "id": "ghana-one-voice",
+    "name": "Ghana One Voice",
+    "repo_id": "ghanaopenai/ghana-one-voice",
+    "description": "Curated dataset ghana-one-voice published by Ghana Open AI",
+    "downloads": 1091,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-one-voice"
+  },
+  {
+    "id": "ghana-speech-eval",
+    "name": "Ghana Speech Eval",
+    "repo_id": "ghanaopenai/ghana-speech-eval",
+    "description": "Curated dataset ghana-speech-eval published by Ghana Open AI",
+    "downloads": 995,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-speech-eval"
+  },
+  {
+    "id": "ghana-english-tts-filtered",
+    "name": "Ghana English Tts Filtered",
+    "repo_id": "ghanaopenai/ghana-english-tts-filtered",
+    "description": "Curated dataset ghana-english-tts-filtered published by Ghana Open AI",
+    "downloads": 987,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-english-tts-filtered"
+  },
+  {
+    "id": "new-twi-tts-aligned-ipa",
+    "name": "New Twi Tts Aligned Ipa",
+    "repo_id": "ghanaopenai/new-twi-tts-aligned-ipa",
+    "description": "Curated dataset new-twi-tts-aligned-ipa published by Ghana Open AI",
+    "downloads": 837,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/new-twi-tts-aligned-ipa"
+  },
+  {
+    "id": "twi-health-asr",
+    "name": "Twi Health Asr",
+    "repo_id": "ghanaopenai/twi-health-asr",
+    "description": "Curated dataset twi-health-asr published by Ghana Open AI",
+    "downloads": 688,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-health-asr"
+  },
+  {
+    "id": "ghana-english-tts-clean2",
+    "name": "Ghana English Tts Clean2",
+    "repo_id": "ghanaopenai/ghana-english-tts-clean2",
+    "description": "Curated dataset ghana-english-tts-clean2 published by Ghana Open AI",
+    "downloads": 682,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-english-tts-clean2"
+  },
+  {
+    "id": "ewe-bible-audio-text-tts",
+    "name": "Ewe Bible Audio Text Tts",
+    "repo_id": "ghanaopenai/ewe-bible-audio-text-tts",
+    "description": "Curated dataset ewe-bible-audio-text-tts published by Ghana Open AI",
+    "downloads": 680,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ewe-bible-audio-text-tts"
+  },
+  {
+    "id": "twi-grapheme-unit-features",
+    "name": "Twi Grapheme Unit Features",
+    "repo_id": "ghanaopenai/twi-grapheme-unit-features",
+    "description": "Curated dataset twi-grapheme-unit-features published by Ghana Open AI",
+    "downloads": 670,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-grapheme-unit-features"
+  },
+  {
+    "id": "twi-trigrams-speech-text-parallel",
+    "name": "Twi Trigrams Speech Text Parallel",
+    "repo_id": "ghanaopenai/twi-trigrams-speech-text-parallel",
+    "description": "Curated dataset twi-trigrams-speech-text-parallel published by Ghana Open AI",
+    "downloads": 652,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-trigrams-speech-text-parallel"
+  },
+  {
+    "id": "twi-zephyr-synthetic-speech",
+    "name": "Twi Zephyr Synthetic Speech",
+    "repo_id": "ghanaopenai/twi-zephyr-synthetic-speech",
+    "description": "Curated dataset twi-zephyr-synthetic-speech published by Ghana Open AI",
+    "downloads": 643,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-zephyr-synthetic-speech"
+  },
+  {
+    "id": "navigation-corpus-dagbani-speech",
+    "name": "Navigation Corpus Dagbani Speech",
+    "repo_id": "ghanaopenai/navigation-corpus-dagbani-speech",
+    "description": "Curated dataset navigation-corpus-dagbani-speech published by Ghana Open AI",
+    "downloads": 642,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-dagbani-speech"
+  },
+  {
+    "id": "navigation-corpus-twi-speech",
+    "name": "Navigation Corpus Twi Speech",
+    "repo_id": "ghanaopenai/navigation-corpus-twi-speech",
+    "description": "Curated dataset navigation-corpus-twi-speech published by Ghana Open AI",
+    "downloads": 629,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-twi-speech"
+  },
+  {
+    "id": "ghana-english-speech-600hrs",
+    "name": "Ghana English Speech 600Hrs",
+    "repo_id": "ghanaopenai/ghana-english-speech-600hrs",
+    "description": "Curated dataset ghana-english-speech-600hrs published by Ghana Open AI",
+    "downloads": 601,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-english-speech-600hrs"
+  },
+  {
+    "id": "ghana-female-speech",
+    "name": "Ghana Female Speech",
+    "repo_id": "ghanaopenai/ghana-female-speech",
+    "description": "Curated dataset ghana-female-speech published by Ghana Open AI",
+    "downloads": 584,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-female-speech"
+  },
+  {
+    "id": "Ghana_English-Twi_Code-switching_Speech",
+    "name": "Ghana_English Twi_Code Switching_Speech",
+    "repo_id": "ghanaopenai/Ghana_English-Twi_Code-switching_Speech",
+    "description": "Curated dataset Ghana_English-Twi_Code-switching_Speech published by Ghana Open AI",
+    "downloads": 568,
+    "likes": 5,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/Ghana_English-Twi_Code-switching_Speech"
+  },
+  {
+    "id": "ghana-english-speech-ipa",
+    "name": "Ghana English Speech Ipa",
+    "repo_id": "ghanaopenai/ghana-english-speech-ipa",
+    "description": "Curated dataset ghana-english-speech-ipa published by Ghana Open AI",
+    "downloads": 565,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-english-speech-ipa"
+  },
+  {
+    "id": "fante-speech-text-multispeaker_lds",
+    "name": "Fante Speech Text Multispeaker_Lds",
+    "repo_id": "ghanaopenai/fante-speech-text-multispeaker_lds",
+    "description": "Curated dataset fante-speech-text-multispeaker_lds published by Ghana Open AI",
+    "downloads": 563,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/fante-speech-text-multispeaker_lds"
+  },
+  {
+    "id": "ghana-named-entities-tts-twi",
+    "name": "Ghana Named Entities Tts Twi",
+    "repo_id": "ghanaopenai/ghana-named-entities-tts-twi",
+    "description": "Curated dataset ghana-named-entities-tts-twi published by Ghana Open AI",
+    "downloads": 520,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-named-entities-tts-twi"
+  },
+  {
+    "id": "ayekoo",
+    "name": "Ayekoo",
+    "repo_id": "ghanaopenai/ayekoo",
+    "description": "Curated dataset ayekoo published by Ghana Open AI",
+    "downloads": 478,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ayekoo"
+  },
+  {
+    "id": "dagbani-bible-audio-text-tts",
+    "name": "Dagbani Bible Audio Text Tts",
+    "repo_id": "ghanaopenai/dagbani-bible-audio-text-tts",
+    "description": "Curated dataset dagbani-bible-audio-text-tts published by Ghana Open AI",
+    "downloads": 471,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/dagbani-bible-audio-text-tts"
+  },
+  {
+    "id": "twi-word-level-features",
+    "name": "Twi Word Level Features",
+    "repo_id": "ghanaopenai/twi-word-level-features",
+    "description": "Curated dataset twi-word-level-features published by Ghana Open AI",
+    "downloads": 466,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-word-level-features"
+  },
+  {
+    "id": "ghana-one-voice-v2",
+    "name": "Ghana One Voice V2",
+    "repo_id": "ghanaopenai/ghana-one-voice-v2",
+    "description": "Curated dataset ghana-one-voice-v2 published by Ghana Open AI",
+    "downloads": 444,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-one-voice-v2"
+  },
+  {
+    "id": "ga-speech-text-parallel-90k",
+    "name": "Ga Speech Text Parallel 90K",
+    "repo_id": "ghanaopenai/ga-speech-text-parallel-90k",
+    "description": "Curated dataset ga-speech-text-parallel-90k published by Ghana Open AI",
+    "downloads": 384,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ga-speech-text-parallel-90k"
+  },
+  {
+    "id": "ghana-speech-female-22khz",
+    "name": "Ghana Speech Female 22Khz",
+    "repo_id": "ghanaopenai/ghana-speech-female-22khz",
+    "description": "Curated dataset ghana-speech-female-22khz published by Ghana Open AI",
+    "downloads": 320,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-speech-female-22khz"
+  },
+  {
+    "id": "twi-agriculture-speech",
+    "name": "Twi Agriculture Speech",
+    "repo_id": "ghanaopenai/twi-agriculture-speech",
+    "description": "Curated dataset twi-agriculture-speech published by Ghana Open AI",
+    "downloads": 318,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-agriculture-speech"
+  },
+  {
+    "id": "navigation-corpus-ewe-speech",
+    "name": "Navigation Corpus Ewe Speech",
+    "repo_id": "ghanaopenai/navigation-corpus-ewe-speech",
+    "description": "Curated dataset navigation-corpus-ewe-speech published by Ghana Open AI",
+    "downloads": 275,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-ewe-speech"
+  },
+  {
+    "id": "vagla-speech-text-parallel",
+    "name": "Vagla Speech Text Parallel",
+    "repo_id": "ghanaopenai/vagla-speech-text-parallel",
+    "description": "Curated dataset vagla-speech-text-parallel published by Ghana Open AI",
+    "downloads": 244,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/vagla-speech-text-parallel"
+  },
+  {
+    "id": "ga-multispeaker-speech-text-20k",
+    "name": "Ga Multispeaker Speech Text 20K",
+    "repo_id": "ghanaopenai/ga-multispeaker-speech-text-20k",
+    "description": "Curated dataset ga-multispeaker-speech-text-20k published by Ghana Open AI",
+    "downloads": 225,
+    "likes": 2,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ga-multispeaker-speech-text-20k"
+  },
+  {
+    "id": "kafui-dey-english-tts",
+    "name": "Kafui Dey English Tts",
+    "repo_id": "ghanaopenai/kafui-dey-english-tts",
+    "description": "Curated dataset kafui-dey-english-tts published by Ghana Open AI",
+    "downloads": 222,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/kafui-dey-english-tts"
+  },
+  {
+    "id": "navigation-corpus-speech-full-dagbani",
+    "name": "Navigation Corpus Speech Full Dagbani",
+    "repo_id": "ghanaopenai/navigation-corpus-speech-full-dagbani",
+    "description": "Curated dataset navigation-corpus-speech-full-dagbani published by Ghana Open AI",
+    "downloads": 193,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-speech-full-dagbani"
+  },
+  {
+    "id": "twi_multispeaker_audio_transcribed",
+    "name": "Twi_Multispeaker_Audio_Transcribed",
+    "repo_id": "ghanaopenai/twi_multispeaker_audio_transcribed",
+    "description": "Curated dataset twi_multispeaker_audio_transcribed published by Ghana Open AI",
+    "downloads": 184,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi_multispeaker_audio_transcribed"
+  },
+  {
+    "id": "akuapem_multispeaker_audio_transcribed",
+    "name": "Akuapem_Multispeaker_Audio_Transcribed",
+    "repo_id": "ghanaopenai/akuapem_multispeaker_audio_transcribed",
+    "description": "Curated dataset akuapem_multispeaker_audio_transcribed published by Ghana Open AI",
+    "downloads": 178,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/akuapem_multispeaker_audio_transcribed"
+  },
+  {
+    "id": "ghanaian-corpus-generate",
+    "name": "Ghanaian Corpus Generate",
+    "repo_id": "ghanaopenai/ghanaian-corpus-generate",
+    "description": "Curated dataset ghanaian-corpus-generate published by Ghana Open AI",
+    "downloads": 164,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-corpus-generate"
+  },
+  {
+    "id": "twi-speech-text-multispeaker-16k",
+    "name": "Twi Speech Text Multispeaker 16K",
+    "repo_id": "ghanaopenai/twi-speech-text-multispeaker-16k",
+    "description": "Curated dataset twi-speech-text-multispeaker-16k published by Ghana Open AI",
+    "downloads": 159,
+    "likes": 4,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-speech-text-multispeaker-16k"
+  },
+  {
+    "id": "ghana-female-twi-speech-asr-full-length",
+    "name": "Ghana Female Twi Speech Asr Full Length",
+    "repo_id": "ghanaopenai/ghana-female-twi-speech-asr-full-length",
+    "description": "Curated dataset ghana-female-twi-speech-asr-full-length published by Ghana Open AI",
+    "downloads": 146,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-female-twi-speech-asr-full-length"
+  },
+  {
+    "id": "ghana-female-twi-speech-asr-8word-splits",
+    "name": "Ghana Female Twi Speech Asr 8Word Splits",
+    "repo_id": "ghanaopenai/ghana-female-twi-speech-asr-8word-splits",
+    "description": "Curated dataset ghana-female-twi-speech-asr-8word-splits published by Ghana Open AI",
+    "downloads": 146,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-female-twi-speech-asr-8word-splits"
+  },
+  {
+    "id": "twi-multispeaker-tts",
+    "name": "Twi Multispeaker Tts",
+    "repo_id": "ghanaopenai/twi-multispeaker-tts",
+    "description": "Curated dataset twi-multispeaker-tts published by Ghana Open AI",
+    "downloads": 144,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-multispeaker-tts"
+  },
+  {
+    "id": "ghana-sentences",
+    "name": "Ghana Sentences",
+    "repo_id": "ghanaopenai/ghana-sentences",
+    "description": "Curated dataset ghana-sentences published by Ghana Open AI",
+    "downloads": 140,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-sentences"
+  },
+  {
+    "id": "fante-multispeaker_speech-text-20k",
+    "name": "Fante Multispeaker_Speech Text 20K",
+    "repo_id": "ghanaopenai/fante-multispeaker_speech-text-20k",
+    "description": "Curated dataset fante-multispeaker_speech-text-20k published by Ghana Open AI",
+    "downloads": 133,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/fante-multispeaker_speech-text-20k"
+  },
+  {
+    "id": "ghanaian-corpus",
+    "name": "Ghanaian Corpus",
+    "repo_id": "ghanaopenai/ghanaian-corpus",
+    "description": "Curated dataset ghanaian-corpus published by Ghana Open AI",
+    "downloads": 133,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-corpus"
+  },
+  {
+    "id": "navigation-corpus-speech-full-ewe",
+    "name": "Navigation Corpus Speech Full Ewe",
+    "repo_id": "ghanaopenai/navigation-corpus-speech-full-ewe",
+    "description": "Curated dataset navigation-corpus-speech-full-ewe published by Ghana Open AI",
+    "downloads": 129,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-speech-full-ewe"
+  },
+  {
+    "id": "ghana-assistant-data",
+    "name": "Ghana Assistant Data",
+    "repo_id": "ghanaopenai/ghana-assistant-data",
+    "description": "Curated dataset ghana-assistant-data published by Ghana Open AI",
+    "downloads": 126,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-assistant-data"
+  },
+  {
+    "id": "ghana-audio-prompts",
+    "name": "Ghana Audio Prompts",
+    "repo_id": "ghanaopenai/ghana-audio-prompts",
+    "description": "Curated dataset ghana-audio-prompts published by Ghana Open AI",
+    "downloads": 120,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-audio-prompts"
+  },
+  {
+    "id": "ghana-speech-female-22khz_bible",
+    "name": "Ghana Speech Female 22Khz_Bible",
+    "repo_id": "ghanaopenai/ghana-speech-female-22khz_bible",
+    "description": "Curated dataset ghana-speech-female-22khz_bible published by Ghana Open AI",
+    "downloads": 108,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-speech-female-22khz_bible"
+  },
+  {
+    "id": "twi-english-reasoning-sft-mix",
+    "name": "Twi English Reasoning Sft Mix",
+    "repo_id": "ghanaopenai/twi-english-reasoning-sft-mix",
+    "description": "Curated dataset twi-english-reasoning-sft-mix published by Ghana Open AI",
+    "downloads": 105,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-english-reasoning-sft-mix"
+  },
+  {
+    "id": "voxcpm2-ghana-english-ipa-latents",
+    "name": "Voxcpm2 Ghana English Ipa Latents",
+    "repo_id": "ghanaopenai/voxcpm2-ghana-english-ipa-latents",
+    "description": "Curated dataset voxcpm2-ghana-english-ipa-latents published by Ghana Open AI",
+    "downloads": 105,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/voxcpm2-ghana-english-ipa-latents"
+  },
+  {
+    "id": "twi-translation-tool-calling",
+    "name": "Twi Translation Tool Calling",
+    "repo_id": "ghanaopenai/twi-translation-tool-calling",
+    "description": "Curated dataset twi-translation-tool-calling published by Ghana Open AI",
+    "downloads": 103,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-translation-tool-calling"
+  },
+  {
+    "id": "ghana-landmark-navigation",
+    "name": "Ghana Landmark Navigation",
+    "repo_id": "ghanaopenai/ghana-landmark-navigation",
+    "description": "Curated dataset ghana-landmark-navigation published by Ghana Open AI",
+    "downloads": 102,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-landmark-navigation"
+  },
+  {
+    "id": "ghanaian-research-chunks",
+    "name": "Ghanaian Research Chunks",
+    "repo_id": "ghanaopenai/ghanaian-research-chunks",
+    "description": "Curated dataset ghanaian-research-chunks published by Ghana Open AI",
+    "downloads": 100,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-research-chunks"
+  },
+  {
+    "id": "peswa-podcast-english-tts",
+    "name": "Peswa Podcast English Tts",
+    "repo_id": "ghanaopenai/peswa-podcast-english-tts",
+    "description": "Curated dataset peswa-podcast-english-tts published by Ghana Open AI",
+    "downloads": 94,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/peswa-podcast-english-tts"
+  },
+  {
+    "id": "ghok-parallel-en-twi",
+    "name": "Ghok Parallel En Twi",
+    "repo_id": "ghanaopenai/ghok-parallel-en-twi",
+    "description": "Curated dataset ghok-parallel-en-twi published by Ghana Open AI",
+    "downloads": 87,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghok-parallel-en-twi"
+  },
+  {
+    "id": "twi-translation-glossary-chunks",
+    "name": "Twi Translation Glossary Chunks",
+    "repo_id": "ghanaopenai/twi-translation-glossary-chunks",
+    "description": "Curated dataset twi-translation-glossary-chunks published by Ghana Open AI",
+    "downloads": 86,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-translation-glossary-chunks"
+  },
+  {
+    "id": "loud-lounge-twi-tts",
+    "name": "Loud Lounge Twi Tts",
+    "repo_id": "ghanaopenai/loud-lounge-twi-tts",
+    "description": "Curated dataset loud-lounge-twi-tts published by Ghana Open AI",
+    "downloads": 81,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/loud-lounge-twi-tts"
+  },
+  {
+    "id": "italy-asetena-twi-tts",
+    "name": "Italy Asetena Twi Tts",
+    "repo_id": "ghanaopenai/italy-asetena-twi-tts",
+    "description": "Curated dataset italy-asetena-twi-tts published by Ghana Open AI",
+    "downloads": 74,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/italy-asetena-twi-tts"
+  },
+  {
+    "id": "ghana-public-sector-corpus",
+    "name": "Ghana Public Sector Corpus",
+    "repo_id": "ghanaopenai/ghana-public-sector-corpus",
+    "description": "Curated dataset ghana-public-sector-corpus published by Ghana Open AI",
+    "downloads": 68,
+    "likes": 2,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-public-sector-corpus"
+  },
+  {
+    "id": "new-twi-tts-aligned",
+    "name": "New Twi Tts Aligned",
+    "repo_id": "ghanaopenai/new-twi-tts-aligned",
+    "description": "Curated dataset new-twi-tts-aligned published by Ghana Open AI",
+    "downloads": 63,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/new-twi-tts-aligned"
+  },
+  {
+    "id": "navigation-corpus-speech-full-twi",
+    "name": "Navigation Corpus Speech Full Twi",
+    "repo_id": "ghanaopenai/navigation-corpus-speech-full-twi",
+    "description": "Curated dataset navigation-corpus-speech-full-twi published by Ghana Open AI",
+    "downloads": 62,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-speech-full-twi"
+  },
+  {
+    "id": "ghanaian-news-sentences",
+    "name": "Ghanaian News Sentences",
+    "repo_id": "ghanaopenai/ghanaian-news-sentences",
+    "description": "Curated dataset ghanaian-news-sentences published by Ghana Open AI",
+    "downloads": 61,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-news-sentences"
+  },
+  {
+    "id": "gloss-mt-parallel-en-twi",
+    "name": "Gloss Mt Parallel En Twi",
+    "repo_id": "ghanaopenai/gloss-mt-parallel-en-twi",
+    "description": "Curated dataset gloss-mt-parallel-en-twi published by Ghana Open AI",
+    "downloads": 59,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/gloss-mt-parallel-en-twi"
+  },
+  {
+    "id": "Code-170k-twi",
+    "name": "Code 170k Twi",
+    "repo_id": "ghanaopenai/Code-170k-twi",
+    "description": "170,000 code instructions and explanations in Twi for local software engineering LLMs.",
+    "downloads": 57,
+    "likes": 0,
+    "tags": [
+      "Coding",
+      "Instructions",
+      "Twi"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/Code-170k-twi"
+  },
+  {
+    "id": "ghok-chat",
+    "name": "Ghok Chat",
+    "repo_id": "ghanaopenai/ghok-chat",
+    "description": "Curated dataset ghok-chat published by Ghana Open AI",
+    "downloads": 55,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghok-chat"
+  },
+  {
+    "id": "twi-grapheme-comma-fixed",
+    "name": "Twi Grapheme Comma Fixed",
+    "repo_id": "ghanaopenai/twi-grapheme-comma-fixed",
+    "description": "Curated dataset twi-grapheme-comma-fixed published by Ghana Open AI",
+    "downloads": 49,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-grapheme-comma-fixed"
+  },
+  {
+    "id": "twi-english-reasoning-translation",
+    "name": "Twi English Reasoning Translation",
+    "repo_id": "ghanaopenai/twi-english-reasoning-translation",
+    "description": "Curated dataset twi-english-reasoning-translation published by Ghana Open AI",
+    "downloads": 46,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-english-reasoning-translation"
+  },
+  {
+    "id": "ghana-farmer-qa-twi",
+    "name": "Ghana Farmer Qa Twi",
+    "repo_id": "ghanaopenai/ghana-farmer-qa-twi",
+    "description": "Curated dataset ghana-farmer-qa-twi published by Ghana Open AI",
+    "downloads": 45,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-farmer-qa-twi"
+  },
+  {
+    "id": "twi_sentences_320k",
+    "name": "Twi_Sentences_320K",
+    "repo_id": "ghanaopenai/twi_sentences_320k",
+    "description": "Curated dataset twi_sentences_320k published by Ghana Open AI",
+    "downloads": 44,
+    "likes": 3,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi_sentences_320k"
+  },
+  {
+    "id": "ghana-farmer-qa-ewe",
+    "name": "Ghana Farmer Qa Ewe",
+    "repo_id": "ghanaopenai/ghana-farmer-qa-ewe",
+    "description": "Curated dataset ghana-farmer-qa-ewe published by Ghana Open AI",
+    "downloads": 44,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-farmer-qa-ewe"
+  },
+  {
+    "id": "minimind-sft-en-tw",
+    "name": "Minimind Sft En Tw",
+    "repo_id": "ghanaopenai/minimind-sft-en-tw",
+    "description": "Curated dataset minimind-sft-en-tw published by Ghana Open AI",
+    "downloads": 44,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/minimind-sft-en-tw"
+  },
+  {
+    "id": "Code-170k-ga",
+    "name": "Code 170K Ga",
+    "repo_id": "ghanaopenai/Code-170k-ga",
+    "description": "Curated dataset Code-170k-ga published by Ghana Open AI",
+    "downloads": 41,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/Code-170k-ga"
+  },
+  {
+    "id": "ghana-farmer-qa-ga",
+    "name": "Ghana Farmer Qa Ga",
+    "repo_id": "ghanaopenai/ghana-farmer-qa-ga",
+    "description": "Curated dataset ghana-farmer-qa-ga published by Ghana Open AI",
+    "downloads": 41,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-farmer-qa-ga"
+  },
+  {
+    "id": "gooaq-twi-2m",
+    "name": "Gooaq Twi 2M",
+    "repo_id": "ghanaopenai/gooaq-twi-2m",
+    "description": "Curated dataset gooaq-twi-2m published by Ghana Open AI",
+    "downloads": 40,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/gooaq-twi-2m"
+  },
+  {
+    "id": "twi-grapheme-unit-pairs",
+    "name": "Twi Grapheme Unit Pairs",
+    "repo_id": "ghanaopenai/twi-grapheme-unit-pairs",
+    "description": "Curated dataset twi-grapheme-unit-pairs published by Ghana Open AI",
+    "downloads": 38,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-grapheme-unit-pairs"
+  },
+  {
+    "id": "navigation-corpus-ga",
+    "name": "Navigation Corpus Ga",
+    "repo_id": "ghanaopenai/navigation-corpus-ga",
+    "description": "Curated dataset navigation-corpus-ga published by Ghana Open AI",
+    "downloads": 35,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-ga"
+  },
+  {
+    "id": "Code-170k-ewe",
+    "name": "Code 170K Ewe",
+    "repo_id": "ghanaopenai/Code-170k-ewe",
+    "description": "Curated dataset Code-170k-ewe published by Ghana Open AI",
+    "downloads": 34,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/Code-170k-ewe"
+  },
+  {
+    "id": "twi-speech-text-multispeaker-clean",
+    "name": "Twi Speech Text Multispeaker Clean",
+    "repo_id": "ghanaopenai/twi-speech-text-multispeaker-clean",
+    "description": "Curated dataset twi-speech-text-multispeaker-clean published by Ghana Open AI",
+    "downloads": 34,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-speech-text-multispeaker-clean"
+  },
+  {
+    "id": "multilingual-emotion-ghana",
+    "name": "Multilingual Emotion Ghana",
+    "repo_id": "ghanaopenai/multilingual-emotion-ghana",
+    "description": "Curated dataset multilingual-emotion-ghana published by Ghana Open AI",
+    "downloads": 30,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/multilingual-emotion-ghana"
+  },
+  {
+    "id": "minimind-dpo-en-tw",
+    "name": "Minimind Dpo En Tw",
+    "repo_id": "ghanaopenai/minimind-dpo-en-tw",
+    "description": "Curated dataset minimind-dpo-en-tw published by Ghana Open AI",
+    "downloads": 29,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/minimind-dpo-en-tw"
+  },
+  {
+    "id": "ghanaian-research-english",
+    "name": "Ghanaian Research English",
+    "repo_id": "ghanaopenai/ghanaian-research-english",
+    "description": "Curated dataset ghanaian-research-english published by Ghana Open AI",
+    "downloads": 27,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-research-english"
+  },
+  {
+    "id": "ghana-health-symptoms",
+    "name": "Ghana Health Symptoms",
+    "repo_id": "ghanaopenai/ghana-health-symptoms",
+    "description": "Curated dataset ghana-health-symptoms published by Ghana Open AI",
+    "downloads": 27,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-health-symptoms"
+  },
+  {
+    "id": "voice_trainer_english",
+    "name": "Voice_Trainer_English",
+    "repo_id": "ghanaopenai/voice_trainer_english",
+    "description": "Curated dataset voice_trainer_english published by Ghana Open AI",
+    "downloads": 26,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/voice_trainer_english"
+  },
+  {
+    "id": "english-twi-translate-llm-instruct-160k",
+    "name": "English Twi Translate Llm Instruct 160K",
+    "repo_id": "ghanaopenai/english-twi-translate-llm-instruct-160k",
+    "description": "Curated dataset english-twi-translate-llm-instruct-160k published by Ghana Open AI",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/english-twi-translate-llm-instruct-160k"
+  },
+  {
+    "id": "navigation-corpus-ewe",
+    "name": "Navigation Corpus Ewe",
+    "repo_id": "ghanaopenai/navigation-corpus-ewe",
+    "description": "Curated dataset navigation-corpus-ewe published by Ghana Open AI",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-ewe"
+  },
+  {
+    "id": "minimind-agent-math-en-tw",
+    "name": "Minimind Agent Math En Tw",
+    "repo_id": "ghanaopenai/minimind-agent-math-en-tw",
+    "description": "Curated dataset minimind-agent-math-en-tw published by Ghana Open AI",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/minimind-agent-math-en-tw"
+  },
+  {
+    "id": "minimind-pretrain-en-tw",
+    "name": "Minimind Pretrain En Tw",
+    "repo_id": "ghanaopenai/minimind-pretrain-en-tw",
+    "description": "Curated dataset minimind-pretrain-en-tw published by Ghana Open AI",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/minimind-pretrain-en-tw"
+  },
+  {
+    "id": "twi-sentiments-corpus-400k",
+    "name": "Twi Sentiments Corpus 400K",
+    "repo_id": "ghanaopenai/twi-sentiments-corpus-400k",
+    "description": "Curated dataset twi-sentiments-corpus-400k published by Ghana Open AI",
+    "downloads": 20,
+    "likes": 1,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/twi-sentiments-corpus-400k"
+  },
+  {
+    "id": "ghanaian-english-words-corrected-transcriptions",
+    "name": "Ghanaian English Words Corrected Transcriptions",
+    "repo_id": "ghanaopenai/ghanaian-english-words-corrected-transcriptions",
+    "description": "Curated dataset ghanaian-english-words-corrected-transcriptions published by Ghana Open AI",
+    "downloads": 20,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-english-words-corrected-transcriptions"
+  },
+  {
+    "id": "minimind-rag-sft-en-tw",
+    "name": "Minimind Rag Sft En Tw",
+    "repo_id": "ghanaopenai/minimind-rag-sft-en-tw",
+    "description": "Curated dataset minimind-rag-sft-en-tw published by Ghana Open AI",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/minimind-rag-sft-en-tw"
+  },
+  {
+    "id": "navigation-corpus-twi",
+    "name": "Navigation Corpus Twi",
+    "repo_id": "ghanaopenai/navigation-corpus-twi",
+    "description": "Curated dataset navigation-corpus-twi published by Ghana Open AI",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-twi"
+  },
+  {
+    "id": "ghanaian-research-english-sentences",
+    "name": "Ghanaian Research English Sentences",
+    "repo_id": "ghanaopenai/ghanaian-research-english-sentences",
+    "description": "Curated dataset ghanaian-research-english-sentences published by Ghana Open AI",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghanaian-research-english-sentences"
+  },
+  {
+    "id": "english-twi-nouns",
+    "name": "English Twi Nouns",
+    "repo_id": "ghanaopenai/english-twi-nouns",
+    "description": "Curated dataset english-twi-nouns published by Ghana Open AI",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/english-twi-nouns"
+  },
+  {
+    "id": "english-twi-nouns-v2",
+    "name": "English Twi Nouns V2",
+    "repo_id": "ghanaopenai/english-twi-nouns-v2",
+    "description": "Curated dataset english-twi-nouns-v2 published by Ghana Open AI",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/english-twi-nouns-v2"
+  },
+  {
+    "id": "navigation-corpus-dagbani",
+    "name": "Navigation Corpus Dagbani",
+    "repo_id": "ghanaopenai/navigation-corpus-dagbani",
+    "description": "Curated dataset navigation-corpus-dagbani published by Ghana Open AI",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/navigation-corpus-dagbani"
+  },
+  {
+    "id": "ghana-llm-sft-curated",
+    "name": "Ghana Llm Sft Curated",
+    "repo_id": "ghanaopenai/ghana-llm-sft-curated",
+    "description": "Curated dataset ghana-llm-sft-curated published by Ghana Open AI",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-llm-sft-curated"
+  },
+  {
+    "id": "ewe-twi_sentence-pairs-200k",
+    "name": "Ewe Twi_Sentence Pairs 200K",
+    "repo_id": "ghanaopenai/ewe-twi_sentence-pairs-200k",
+    "description": "Curated dataset ewe-twi_sentence-pairs-200k published by Ghana Open AI",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ewe-twi_sentence-pairs-200k"
+  },
+  {
+    "id": "ghana-voice-training-data",
+    "name": "Ghana Voice Training Data",
+    "repo_id": "ghanaopenai/ghana-voice-training-data",
+    "description": "Curated dataset ghana-voice-training-data published by Ghana Open AI",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "Dataset",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/datasets/ghanaopenai/ghana-voice-training-data"
+  }
+]

@@ -1,0 +1,956 @@
+[
+  {
+    "id": "gloss-mt-nllb-3.3b",
+    "name": "Gloss-MT NLLB 3.3B",
+    "repo_id": "ghanaopenai/gloss-mt-nllb-3.3b",
+    "description": "English to Twi neural machine translation with tool-calling dictionary reasoning",
+    "downloads": 66,
+    "likes": 0,
+    "tags": [
+      "MT",
+      "Translation",
+      "NLLB"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/gloss-mt-nllb-3.3b",
+    "pipeline_tag": "translation"
+  },
+  {
+    "id": "ghana-audiodit",
+    "name": "Ghana AudioDiT",
+    "repo_id": "ghanaopenai/ghana-audiodit",
+    "description": "Text-to-speech diffusion model fine-tuned for 43 Ghanaian languages",
+    "downloads": 41,
+    "likes": 0,
+    "tags": [
+      "TTS",
+      "Diffusion",
+      "AudioDiT"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/ghana-audiodit",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "vieneu-tts-ghana-foundation",
+    "name": "VieNeu-TTS Ghana Foundation",
+    "repo_id": "ghanaopenai/vieneu-tts-ghana-foundation",
+    "description": "Foundation Ghanaian and African text-to-speech voice model",
+    "downloads": 23,
+    "likes": 1,
+    "tags": [
+      "TTS",
+      "Speech",
+      "Foundation"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/vieneu-tts-ghana-foundation",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "gloss-mt-translategemma-4b",
+    "name": "Gloss-MT TranslateGemma 4B",
+    "repo_id": "ghanaopenai/gloss-mt-translategemma-4b",
+    "description": "Gemma-based English-Twi machine translation with dictionary-grounded CoT",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+      "MT",
+      "Gemma",
+      "Translation"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/gloss-mt-translategemma-4b",
+    "pipeline_tag": "translation"
+  },
+  {
+    "id": "ghana-speech-id",
+    "name": "Ghana Speech-ID",
+    "repo_id": "ghanaopenai/ghana-speech-id",
+    "description": "Language identification for 42 Ghanaian and West African speech varieties",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+      "LID",
+      "ASR",
+      "Audio"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/ghana-speech-id",
+    "pipeline_tag": "audio-classification"
+  },
+  {
+    "id": "ghana-llm-base",
+    "name": "Ghana-LLM Base",
+    "repo_id": "ghanaopenai/ghana-llm-base",
+    "description": "Open Ghanaian cultural & language foundation language model",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+      "LLM",
+      "Reasoning",
+      "Ghanaian"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/ghana-llm-base",
+    "pipeline_tag": "text-generation"
+  },
+  {
+    "id": "ghana-pico-asr-twi",
+    "name": "Ghana Pico-ASR Twi",
+    "repo_id": "ghanaopenai/ghana-pico-asr-twi",
+    "description": "Ultra-compact 12M-parameter grapheme-unit speech recognizer",
+    "downloads": 4,
+    "likes": 0,
+    "tags": [
+      "ASR",
+      "Edge AI",
+      "Akan"
+    ],
+    "featured": true,
+    "href": "https://huggingface.co/ghanaopenai/ghana-pico-asr-twi",
+    "pipeline_tag": "automatic-speech-recognition"
+  },
+  {
+    "id": "ghana-voice-base",
+    "name": "Ghana Voice Base",
+    "repo_id": "ghanaopenai/ghana-voice-base",
+    "description": "OmniVoice multilingual voice synthesis across Ghanaian dialects",
+    "downloads": 82,
+    "likes": 0,
+    "tags": [
+      "TTS",
+      "Multi-Dialect"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-voice-base",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "ghana-voice_asante_twi",
+    "name": "Ghana Voice_Asante_Twi",
+    "repo_id": "ghanaopenai/ghana-voice_asante_twi",
+    "description": "Open-source Ghanaian model for ghana-voice_asante_twi",
+    "downloads": 70,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-voice_asante_twi",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "neu-tts-ghana-base",
+    "name": "Neu Tts Ghana Base",
+    "repo_id": "ghanaopenai/neu-tts-ghana-base",
+    "description": "Open-source Ghanaian model for neu-tts-ghana-base",
+    "downloads": 48,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/neu-tts-ghana-base",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "gloss-mt-nllb-600m",
+    "name": "Gloss Mt Nllb 600M",
+    "repo_id": "ghanaopenai/gloss-mt-nllb-600m",
+    "description": "Open-source Ghanaian model for gloss-mt-nllb-600m",
+    "downloads": 47,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/gloss-mt-nllb-600m",
+    "pipeline_tag": "translation"
+  },
+  {
+    "id": "twi-punct-cap-restoration",
+    "name": "Twi Punctuation & Capitalization",
+    "repo_id": "ghanaopenai/twi-punct-cap-restoration",
+    "description": "BERT-based punctuation and capitalization restoration for Twi speech transcripts",
+    "downloads": 44,
+    "likes": 0,
+    "tags": [
+      "NLP",
+      "Twi",
+      "Grammar"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/twi-punct-cap-restoration",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "gloss-mt-nllb-1.3b",
+    "name": "Gloss Mt Nllb 1.3B",
+    "repo_id": "ghanaopenai/gloss-mt-nllb-1.3b",
+    "description": "Open-source Ghanaian model for gloss-mt-nllb-1.3b",
+    "downloads": 35,
+    "likes": 1,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/gloss-mt-nllb-1.3b",
+    "pipeline_tag": "translation"
+  },
+  {
+    "id": "gloss-mt-opus-mt-en-tw",
+    "name": "Gloss Mt Opus Mt En Tw",
+    "repo_id": "ghanaopenai/gloss-mt-opus-mt-en-tw",
+    "description": "Open-source Ghanaian model for gloss-mt-opus-mt-en-tw",
+    "downloads": 29,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/gloss-mt-opus-mt-en-tw",
+    "pipeline_tag": "translation"
+  },
+  {
+    "id": "twi-multispeaker-audiodit",
+    "name": "Twi Multispeaker Audiodit",
+    "repo_id": "ghanaopenai/twi-multispeaker-audiodit",
+    "description": "Open-source Ghanaian model for twi-multispeaker-audiodit",
+    "downloads": 27,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/twi-multispeaker-audiodit",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "afri-punct-cap-restoration",
+    "name": "Afri Punct Cap Restoration",
+    "repo_id": "ghanaopenai/afri-punct-cap-restoration",
+    "description": "Open-source Ghanaian model for afri-punct-cap-restoration",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/afri-punct-cap-restoration",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "mms-tts-aka-with-disc",
+    "name": "MMS-TTS Akan with Discriminator",
+    "repo_id": "ghanaopenai/mms-tts-aka-with-disc",
+    "description": "Meta MMS fine-tune with discriminator loss for crisp Akan speech",
+    "downloads": 4,
+    "likes": 2,
+    "tags": [
+      "TTS",
+      "Akan",
+      "Meta"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/mms-tts-aka-with-disc",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "ghana-pico-asr-twi-recovery",
+    "name": "Ghana Pico Asr Twi Recovery",
+    "repo_id": "ghanaopenai/ghana-pico-asr-twi-recovery",
+    "description": "Open-source Ghanaian model for ghana-pico-asr-twi-recovery",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-pico-asr-twi-recovery",
+    "pipeline_tag": "text-generation"
+  },
+  {
+    "id": "mms-tts-aka-twi-tokenizer",
+    "name": "Mms Tts Aka Twi Tokenizer",
+    "repo_id": "ghanaopenai/mms-tts-aka-twi-tokenizer",
+    "description": "Open-source Ghanaian model for mms-tts-aka-twi-tokenizer",
+    "downloads": 0,
+    "likes": 1,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/mms-tts-aka-twi-tokenizer",
+    "pipeline_tag": "text-to-speech"
+  },
+  {
+    "id": "ghana-vc",
+    "name": "Ghana Vc",
+    "repo_id": "ghanaopenai/ghana-vc",
+    "description": "Open-source Ghanaian model for ghana-vc",
+    "downloads": 0,
+    "likes": 1,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Akuapem_Twi_twi",
+    "name": "Ghana Vc Akuapem_Twi_Twi",
+    "repo_id": "ghanaopenai/ghana-vc-Akuapem_Twi_twi",
+    "description": "Open-source Ghanaian model for ghana-vc-Akuapem_Twi_twi",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Akuapem_Twi_twi",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Anyin_any",
+    "name": "Ghana Vc Anyin_Any",
+    "repo_id": "ghanaopenai/ghana-vc-Anyin_any",
+    "description": "Open-source Ghanaian model for ghana-vc-Anyin_any",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Anyin_any",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Asante_Twi_twi",
+    "name": "Ghana Vc Asante_Twi_Twi",
+    "repo_id": "ghanaopenai/ghana-vc-Asante_Twi_twi",
+    "description": "Open-source Ghanaian model for ghana-vc-Asante_Twi_twi",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Asante_Twi_twi",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Avatime_avn",
+    "name": "Ghana Vc Avatime_Avn",
+    "repo_id": "ghanaopenai/ghana-vc-Avatime_avn",
+    "description": "Open-source Ghanaian model for ghana-vc-Avatime_avn",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Avatime_avn",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Bassar_Ntcham_bud",
+    "name": "Ghana Vc Bassar_Ntcham_Bud",
+    "repo_id": "ghanaopenai/ghana-vc-Bassar_Ntcham_bud",
+    "description": "Open-source Ghanaian model for ghana-vc-Bassar_Ntcham_bud",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Bassar_Ntcham_bud",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Bimoba_bim",
+    "name": "Ghana Vc Bimoba_Bim",
+    "repo_id": "ghanaopenai/ghana-vc-Bimoba_bim",
+    "description": "Open-source Ghanaian model for ghana-vc-Bimoba_bim",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Bimoba_bim",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Birifor_Southern_biv",
+    "name": "Ghana Vc Birifor_Southern_Biv",
+    "repo_id": "ghanaopenai/ghana-vc-Birifor_Southern_biv",
+    "description": "Open-source Ghanaian model for ghana-vc-Birifor_Southern_biv",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Birifor_Southern_biv",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Bissa_bib",
+    "name": "Ghana Vc Bissa_Bib",
+    "repo_id": "ghanaopenai/ghana-vc-Bissa_bib",
+    "description": "Open-source Ghanaian model for ghana-vc-Bissa_bib",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Bissa_bib",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Buli_bwu",
+    "name": "Ghana Vc Buli_Bwu",
+    "repo_id": "ghanaopenai/ghana-vc-Buli_bwu",
+    "description": "Open-source Ghanaian model for ghana-vc-Buli_bwu",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Buli_bwu",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Chumburung_ncu",
+    "name": "Ghana Vc Chumburung_Ncu",
+    "repo_id": "ghanaopenai/ghana-vc-Chumburung_ncu",
+    "description": "Open-source Ghanaian model for ghana-vc-Chumburung_ncu",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Chumburung_ncu",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Dagaare_dga",
+    "name": "Ghana Vc Dagaare_Dga",
+    "repo_id": "ghanaopenai/ghana-vc-Dagaare_dga",
+    "description": "Open-source Ghanaian model for ghana-vc-Dagaare_dga",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Dagaare_dga",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Dagbani_dag",
+    "name": "Ghana Vc Dagbani_Dag",
+    "repo_id": "ghanaopenai/ghana-vc-Dagbani_dag",
+    "description": "Open-source Ghanaian model for ghana-vc-Dagbani_dag",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Dagbani_dag",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Dangme_ada",
+    "name": "Ghana Vc Dangme_Ada",
+    "repo_id": "ghanaopenai/ghana-vc-Dangme_ada",
+    "description": "Open-source Ghanaian model for ghana-vc-Dangme_ada",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Dangme_ada",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Deg_mzw",
+    "name": "Ghana Vc Deg_Mzw",
+    "repo_id": "ghanaopenai/ghana-vc-Deg_mzw",
+    "description": "Open-source Ghanaian model for ghana-vc-Deg_mzw",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Deg_mzw",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Ewe_ewe",
+    "name": "Ghana Vc Ewe_Ewe",
+    "repo_id": "ghanaopenai/ghana-vc-Ewe_ewe",
+    "description": "Open-source Ghanaian model for ghana-vc-Ewe_ewe",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Ewe_ewe",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Fante_fat",
+    "name": "Ghana Vc Fante_Fat",
+    "repo_id": "ghanaopenai/ghana-vc-Fante_fat",
+    "description": "Open-source Ghanaian model for ghana-vc-Fante_fat",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Fante_fat",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Fulfulde_Maasina_ffm",
+    "name": "Ghana Vc Fulfulde_Maasina_Ffm",
+    "repo_id": "ghanaopenai/ghana-vc-Fulfulde_Maasina_ffm",
+    "description": "Open-source Ghanaian model for ghana-vc-Fulfulde_Maasina_ffm",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Fulfulde_Maasina_ffm",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Gikyode_acd",
+    "name": "Ghana Vc Gikyode_Acd",
+    "repo_id": "ghanaopenai/ghana-vc-Gikyode_acd",
+    "description": "Open-source Ghanaian model for ghana-vc-Gikyode_acd",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Gikyode_acd",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Gonja_gjn",
+    "name": "Ghana Vc Gonja_Gjn",
+    "repo_id": "ghanaopenai/ghana-vc-Gonja_gjn",
+    "description": "Open-source Ghanaian model for ghana-vc-Gonja_gjn",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Gonja_gjn",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Hausa_hau",
+    "name": "Ghana Vc Hausa_Hau",
+    "repo_id": "ghanaopenai/ghana-vc-Hausa_hau",
+    "description": "Open-source Ghanaian model for ghana-vc-Hausa_hau",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Hausa_hau",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Kabiye_kbp",
+    "name": "Ghana Vc Kabiye_Kbp",
+    "repo_id": "ghanaopenai/ghana-vc-Kabiye_kbp",
+    "description": "Open-source Ghanaian model for ghana-vc-Kabiye_kbp",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Kabiye_kbp",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Kasem_xsm",
+    "name": "Ghana Vc Kasem_Xsm",
+    "repo_id": "ghanaopenai/ghana-vc-Kasem_xsm",
+    "description": "Open-source Ghanaian model for ghana-vc-Kasem_xsm",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Kasem_xsm",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Konkomba_xon",
+    "name": "Ghana Vc Konkomba_Xon",
+    "repo_id": "ghanaopenai/ghana-vc-Konkomba_xon",
+    "description": "Open-source Ghanaian model for ghana-vc-Konkomba_xon",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Konkomba_xon",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Konni_kma",
+    "name": "Ghana Vc Konni_Kma",
+    "repo_id": "ghanaopenai/ghana-vc-Konni_kma",
+    "description": "Open-source Ghanaian model for ghana-vc-Konni_kma",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Konni_kma",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Kusaal_kus",
+    "name": "Ghana Vc Kusaal_Kus",
+    "repo_id": "ghanaopenai/ghana-vc-Kusaal_kus",
+    "description": "Open-source Ghanaian model for ghana-vc-Kusaal_kus",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Kusaal_kus",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Lelemi_lef",
+    "name": "Ghana Vc Lelemi_Lef",
+    "repo_id": "ghanaopenai/ghana-vc-Lelemi_lef",
+    "description": "Open-source Ghanaian model for ghana-vc-Lelemi_lef",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Lelemi_lef",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Mampruli_maw",
+    "name": "Ghana Vc Mampruli_Maw",
+    "repo_id": "ghanaopenai/ghana-vc-Mampruli_maw",
+    "description": "Open-source Ghanaian model for ghana-vc-Mampruli_maw",
+    "downloads": 0,
+    "likes": 1,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Mampruli_maw",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Nawuri_naw",
+    "name": "Ghana Vc Nawuri_Naw",
+    "repo_id": "ghanaopenai/ghana-vc-Nawuri_naw",
+    "description": "Open-source Ghanaian model for ghana-vc-Nawuri_naw",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Nawuri_naw",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Ninkare_gur",
+    "name": "Ghana Vc Ninkare_Gur",
+    "repo_id": "ghanaopenai/ghana-vc-Ninkare_gur",
+    "description": "Open-source Ghanaian model for ghana-vc-Ninkare_gur",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Ninkare_gur",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Nkonya_nko",
+    "name": "Ghana Vc Nkonya_Nko",
+    "repo_id": "ghanaopenai/ghana-vc-Nkonya_nko",
+    "description": "Open-source Ghanaian model for ghana-vc-Nkonya_nko",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Nkonya_nko",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Ntrubo_ntr",
+    "name": "Ghana Vc Ntrubo_Ntr",
+    "repo_id": "ghanaopenai/ghana-vc-Ntrubo_ntr",
+    "description": "Open-source Ghanaian model for ghana-vc-Ntrubo_ntr",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Ntrubo_ntr",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Nzema_nzi",
+    "name": "Ghana Vc Nzema_Nzi",
+    "repo_id": "ghanaopenai/ghana-vc-Nzema_nzi",
+    "description": "Open-source Ghanaian model for ghana-vc-Nzema_nzi",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Nzema_nzi",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Paasaal_sig",
+    "name": "Ghana Vc Paasaal_Sig",
+    "repo_id": "ghanaopenai/ghana-vc-Paasaal_sig",
+    "description": "Open-source Ghanaian model for ghana-vc-Paasaal_sig",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Paasaal_sig",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Sehwi_sfw",
+    "name": "Ghana Vc Sehwi_Sfw",
+    "repo_id": "ghanaopenai/ghana-vc-Sehwi_sfw",
+    "description": "Open-source Ghanaian model for ghana-vc-Sehwi_sfw",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Sehwi_sfw",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Sekpele_lip",
+    "name": "Ghana Vc Sekpele_Lip",
+    "repo_id": "ghanaopenai/ghana-vc-Sekpele_lip",
+    "description": "Open-source Ghanaian model for ghana-vc-Sekpele_lip",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Sekpele_lip",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Selee_snw",
+    "name": "Ghana Vc Selee_Snw",
+    "repo_id": "ghanaopenai/ghana-vc-Selee_snw",
+    "description": "Open-source Ghanaian model for ghana-vc-Selee_snw",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Selee_snw",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Sisaala_Tumulung_sil",
+    "name": "Ghana Vc Sisaala_Tumulung_Sil",
+    "repo_id": "ghanaopenai/ghana-vc-Sisaala_Tumulung_sil",
+    "description": "Open-source Ghanaian model for ghana-vc-Sisaala_Tumulung_sil",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Sisaala_Tumulung_sil",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Siwu_akp",
+    "name": "Ghana Vc Siwu_Akp",
+    "repo_id": "ghanaopenai/ghana-vc-Siwu_akp",
+    "description": "Open-source Ghanaian model for ghana-vc-Siwu_akp",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Siwu_akp",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Tampulma_tpm",
+    "name": "Ghana Vc Tampulma_Tpm",
+    "repo_id": "ghanaopenai/ghana-vc-Tampulma_tpm",
+    "description": "Open-source Ghanaian model for ghana-vc-Tampulma_tpm",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Tampulma_tpm",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Tem_kdh",
+    "name": "Ghana Vc Tem_Kdh",
+    "repo_id": "ghanaopenai/ghana-vc-Tem_kdh",
+    "description": "Open-source Ghanaian model for ghana-vc-Tem_kdh",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Tem_kdh",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Tuwuli_bov",
+    "name": "Ghana Vc Tuwuli_Bov",
+    "repo_id": "ghanaopenai/ghana-vc-Tuwuli_bov",
+    "description": "Open-source Ghanaian model for ghana-vc-Tuwuli_bov",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Tuwuli_bov",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-vc-Vagla_vag",
+    "name": "Ghana Vc Vagla_Vag",
+    "repo_id": "ghanaopenai/ghana-vc-Vagla_vag",
+    "description": "Open-source Ghanaian model for ghana-vc-Vagla_vag",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-vc-Vagla_vag",
+    "pipeline_tag": "audio-to-audio"
+  },
+  {
+    "id": "ghana-voice_anyin",
+    "name": "Ghana Voice_Anyin",
+    "repo_id": "ghanaopenai/ghana-voice_anyin",
+    "description": "Open-source Ghanaian model for ghana-voice_anyin",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "AI",
+      "Ghana"
+    ],
+    "featured": false,
+    "href": "https://huggingface.co/ghanaopenai/ghana-voice_anyin",
+    "pipeline_tag": "text-to-speech"
+  }
+]
