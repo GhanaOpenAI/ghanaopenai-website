@@ -1,0 +1,88 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  appendSiteName?: boolean;
+  noindex?: boolean;
+}
+
+import '@fontsource-variable/geist';
+import '@fontsource-variable/geist-mono';
+
+const {
+  title,
+  noindex = false,
+  description = 'Ghana Open AI - Advancing representation in artificial intelligence across Ghanaian languages and national knowledge. Open-source models, datasets, and tools.',
+  image = '/images/logo.png',
+  appendSiteName = true,
+} = Astro.props;
+
+const pageTitle = appendSiteName ? `${title} | Ghana Open AI` : title;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ghanaopenai.org');
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.url)} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={new URL(image, Astro.url)} />
+
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body class="bg-paper text-neutral-800 font-sans antialiased min-h-screen flex flex-col selection:bg-gold-300 selection:text-neutral-900">
+    <slot name="nav" />
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <slot name="footer" />
+  </body>
+</html>
+
+<style is:global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    html {
+      color-scheme: light;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-size: 16px;
+      line-height: 1.65;
+      background: #FAFAFA;
+      overflow-x: clip;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #0F172A;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    a {
+      transition: all 0.2s ease-in-out;
+    }
+  }
+</style>

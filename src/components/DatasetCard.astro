@@ -1,0 +1,74 @@
+---
+interface Props {
+  name: string;
+  repo_id: string;
+  description: string;
+  downloads: number;
+  likes: number;
+  tags: string[];
+  href: string;
+}
+
+const { name, repo_id, description, downloads, likes, tags, href } = Astro.props;
+---
+
+<article class="bg-white border border-neutral-200 rounded-lg p-6 hover:border-neutral-300 hover:shadow-card-hover transition-all duration-200 flex flex-col justify-between group">
+  <div>
+    <div class="flex items-center justify-between gap-3 mb-3">
+      <span class="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+        Dataset
+      </span>
+      <div class="flex items-center gap-2.5 text-xs font-mono text-neutral-500">
+        {downloads > 0 && (
+          <span class="flex items-center gap-1 font-semibold" title="Downloads">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            {downloads.toLocaleString()}
+          </span>
+        )}
+        {likes > 0 && (
+          <span class="flex items-center gap-1 text-rose-600 font-semibold" title="Likes">
+            ♥ {likes}
+          </span>
+        )}
+      </div>
+    </div>
+
+    <h3 class="text-lg font-bold text-neutral-900 mb-1.5 group-hover:text-emerald-700 transition-colors">
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        {name}
+      </a>
+    </h3>
+
+    <div class="text-xs font-mono text-neutral-400 mb-3 truncate">
+      {repo_id}
+    </div>
+
+    <p class="text-sm text-neutral-600 leading-relaxed mb-4 line-clamp-3">
+      {description}
+    </p>
+  </div>
+
+  <div>
+    <div class="flex flex-wrap gap-1.5 mb-5 pt-3 border-t border-neutral-100">
+      {tags.map(tag => (
+        <span class="text-[11px] font-medium px-2 py-0.5 rounded bg-neutral-100 text-neutral-600">
+          {tag}
+        </span>
+      ))}
+    </div>
+
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center justify-between w-full text-xs font-bold uppercase tracking-wider text-neutral-700 group-hover:text-neutral-900 transition-colors pt-1"
+    >
+      <span>Browse Dataset</span>
+      <span class="transform group-hover:translate-x-1 transition-transform">&rarr;</span>
+    </a>
+  </div>
+</article>

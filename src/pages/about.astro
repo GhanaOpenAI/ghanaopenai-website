@@ -1,0 +1,75 @@
+---
+import Base from '../layouts/Base.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Base
+  title="About Us"
+  description="Learn about Ghana Open AI's mission to build open artificial intelligence infrastructure for Ghanaian languages and national knowledge."
+>
+  <Navigation slot="nav" />
+
+  <section class="pt-24 pb-16 sm:pt-28 sm:pb-20 bg-mist border-b border-neutral-200">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-neutral-900 tracking-tight mb-4">
+          About Ghana Open AI
+        </h1>
+        <p class="text-lg text-neutral-600 leading-relaxed">
+          Pioneering open-source AI infrastructure, language technologies, and offline retrieval systems built specifically for Ghana.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 sm:py-20 bg-paper">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl prose prose-neutral text-base leading-relaxed space-y-6">
+        
+        <h2 class="text-2xl font-bold text-neutral-900 tracking-tight">Our Mission</h2>
+        <p class="text-neutral-700">
+          Ghana is home to over 43 indigenous languages and dialects, each representing centuries of culture, heritage, and oral tradition. Yet, mainstream artificial intelligence models frequently omit Ghanaian languages or treat them as low-resource afterthoughts.
+        </p>
+        <p class="text-neutral-700">
+          <strong>Ghana Open AI</strong> was founded to change this reality: to engineer high-quality, reproducible, and open-source models, speech corpora, translation tools, and retrieval systems that place Ghanaian languages on equal footing in the global AI era.
+        </p>
+
+        <h2 class="text-2xl font-bold text-neutral-900 tracking-tight pt-4">What We Focus On</h2>
+        <ul class="list-disc pl-5 space-y-2 text-neutral-700">
+          <li><strong>Speech & Voice Synthesis:</strong> Developing multi-speaker TTS, voice conversion (Ghana-VC), and phoneme-based speech recognition across Akan (Asante, Fante, Akuapem), Ewe, Ga, Dagbani, Kasem, and 20+ other Ghanaian languages.</li>
+          <li><strong>Domain Corpora & Instruction Tuning:</strong> Building tailored datasets for Ghanaian agriculture (Farmer QA), healthcare, legal judgments (GhaLII), parliamentary legislation, and bilingual coding.</li>
+          <li><strong>Offline-First Knowledge Retrieval:</strong> Building lightweight, 100% CPU-based search engines and offline knowledge packs (Ghana Search) that allow local LLMs to run in rural schools, clinics, and farms without internet access.</li>
+          <li><strong>Standardized Benchmarks:</strong> Publishing public leaderboards such as the Nsanku ASR Benchmark and Nsanku MMLU to transparently measure model accuracy across Ghanaian language varieties.</li>
+        </ul>
+
+        <h2 class="text-2xl font-bold text-neutral-900 tracking-tight pt-4">Open-Source & Digital Sovereignty</h2>
+        <p class="text-neutral-700">
+          All our models and datasets are distributed openly on Hugging Face and GitHub under permissive licenses. We believe that national artificial intelligence assets should remain in the public commons—accessible to every researcher, student, software engineer, and citizen.
+        </p>
+
+        <div class="pt-6 border-t border-neutral-200 flex flex-wrap gap-4">
+          <a
+            href="https://huggingface.co/ghanaopenai"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-5 py-2.5 rounded-md bg-neutral-900 text-white text-sm font-bold hover:bg-neutral-800 transition-colors"
+          >
+            Explore Hugging Face Hub &rarr;
+          </a>
+          <a
+            href="https://github.com/GhanaOpenAI"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-5 py-2.5 rounded-md border border-neutral-300 text-neutral-800 text-sm font-semibold hover:bg-neutral-100 transition-colors"
+          >
+            Visit GitHub Organization &rarr;
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>

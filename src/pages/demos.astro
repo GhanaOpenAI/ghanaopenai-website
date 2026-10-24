@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import SpaceCard from '../components/SpaceCard.astro';
+import spaces from '../data/spaces.json';
+---
+
+<Base
+  title="Demos & Spaces"
+  description="Explore live interactive benchmarks, speech synthesizers, and retrieval engines developed by Ghana Open AI."
+>
+  <Navigation slot="nav" />
+
+  <!-- Header Banner -->
+  <section class="pt-24 pb-16 sm:pt-28 sm:pb-20 bg-mist border-b border-neutral-200">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 text-white text-xs font-mono font-bold mb-4">
+          <span>Interactive Demonstrations</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-neutral-900 tracking-tight mb-4">
+          Demos & Leaderboards
+        </h1>
+        <p class="text-base sm:text-lg text-neutral-600 leading-relaxed max-w-2xl">
+          Test our speech models, translation engines, retrieval architectures, and evaluation leaderboards in real time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spaces Grid -->
+  <section class="py-16 sm:py-20 bg-paper">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {spaces.map(space => (
+          <SpaceCard {...space} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>

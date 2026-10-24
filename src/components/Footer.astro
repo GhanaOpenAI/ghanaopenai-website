@@ -1,0 +1,89 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-neutral-900 text-neutral-400 border-t border-neutral-800 text-sm mt-24">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
+      
+      <!-- Brand & Mission Column -->
+      <div class="lg:col-span-2 space-y-4">
+        <div class="flex items-center gap-3">
+          <img src="/images/logo.png" alt="Ghana Open AI" class="h-10 w-auto object-contain bg-white rounded-md p-0.5" />
+          <span class="text-xl font-bold text-white tracking-tight">Ghana Open AI</span>
+        </div>
+        <p class="text-neutral-400 text-sm leading-relaxed max-w-sm">
+          Advancing national representation, cultural sovereignty, and linguistic inclusivity in artificial intelligence across Ghana's languages and public knowledge.
+        </p>
+        <div class="flex items-center gap-3 pt-2">
+          <a
+            href="https://huggingface.co/ghanaopenai"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-xs font-semibold px-3 py-1.5 rounded-md bg-neutral-800 text-neutral-200 border border-neutral-700 hover:bg-neutral-700 transition-colors"
+          >
+            Hugging Face Org →
+          </a>
+          <a
+            href="https://github.com/GhanaOpenAI"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-xs font-semibold px-3 py-1.5 rounded-md bg-neutral-800 text-neutral-200 border border-neutral-700 hover:bg-neutral-700 transition-colors"
+          >
+            GitHub Org →
+          </a>
+        </div>
+      </div>
+
+      <!-- Models & Speech Column -->
+      <div class="space-y-3">
+        <h3 class="text-xs font-bold font-mono uppercase tracking-wider text-neutral-200">Models & Speech</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/models#vieneu-tts" class="hover:text-white transition-colors">VieNeu-TTS Foundation</a></li>
+          <li><a href="/models#ghana-vc" class="hover:text-white transition-colors">Ghana-VC Voice Conversion</a></li>
+          <li><a href="/models#pico-asr" class="hover:text-white transition-colors">Ghana Pico-ASR Twi</a></li>
+          <li><a href="/models#gloss-mt" class="hover:text-white transition-colors">Gloss-MT Translation</a></li>
+          <li><a href="/models" class="text-gold-300 font-semibold hover:underline">View All 60+ Models →</a></li>
+        </ul>
+      </div>
+
+      <!-- Datasets & Infrastructure -->
+      <div class="space-y-3">
+        <h3 class="text-xs font-bold font-mono uppercase tracking-wider text-neutral-200">Data & Infrastructure</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/datasets#ghana-speech" class="hover:text-white transition-colors">Ghana Speech (9.6k+ DLs)</a></li>
+          <li><a href="/datasets#english-asr" class="hover:text-white transition-colors">Ghana ASR (2,700 Hours)</a></li>
+          <li><a href="/datasets#farmer-qa" class="hover:text-white transition-colors">Ghana Farmer QA (150k)</a></li>
+          <li><a href="https://search.ghanaopenai.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Ghana Search Engine (MCP)</a></li>
+          <li><a href="/datasets" class="text-gold-300 font-semibold hover:underline">View All 100+ Datasets →</a></li>
+        </ul>
+      </div>
+
+      <!-- Organization & Contact -->
+      <div class="space-y-3">
+        <h3 class="text-xs font-bold font-mono uppercase tracking-wider text-neutral-200">Organization</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about" class="hover:text-white transition-colors">About Us</a></li>
+          <li><a href="https://search.ghanaopenai.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Live Search Portal</a></li>
+          <li><a href="https://huggingface.co/ghanaopenai" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Hugging Face Hub</a></li>
+          <li><a href="https://github.com/GhanaOpenAI" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Open-Source Code</a></li>
+          <li><span class="text-xs text-neutral-500">contact@ghanaopenai.org</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Attribution -->
+    <div class="pt-12 mt-12 border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
+      <div>
+        &copy; {currentYear} Ghana Open AI. Released under open-source MIT License.
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="https://ghanaopenai.org" class="hover:text-neutral-300">ghanaopenai.org</a>
+        <a href="https://search.ghanaopenai.org" class="hover:text-neutral-300">search.ghanaopenai.org</a>
+        <a href="https://github.com/GhanaOpenAI" class="hover:text-neutral-300">GitHub</a>
+        <a href="https://huggingface.co/ghanaopenai" class="hover:text-neutral-300">HuggingFace</a>
+      </div>
+    </div>
+  </div>
+</footer>

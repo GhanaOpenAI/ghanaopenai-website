@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import DatasetCard from '../components/DatasetCard.astro';
+import datasets from '../data/datasets.json';
+---
+
+<Base
+  title="Datasets & Corpora"
+  description="Browse 100+ public Ghanaian speech and text datasets curated by Ghana Open AI."
+>
+  <Navigation slot="nav" />
+
+  <!-- Header Banner -->
+  <section class="pt-24 pb-16 sm:pt-28 sm:pb-20 bg-mist border-b border-neutral-200">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-xs font-mono font-bold mb-4">
+          <span>Curated African Corpora</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-neutral-900 tracking-tight mb-4">
+          Datasets & Corpora
+        </h1>
+        <p class="text-base sm:text-lg text-neutral-600 leading-relaxed max-w-2xl">
+          Over 100 open speech, parallel translation, reasoning, agricultural, and cultural text corpora for research and model training.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Datasets Grid -->
+  <section class="py-16 sm:py-20 bg-paper">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex items-center justify-between mb-8">
+        <span class="text-sm font-mono text-neutral-500 font-semibold">
+          Showing {datasets.length} public datasets
+        </span>
+        <a
+          href="https://huggingface.co/ghanaopenai"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs font-bold font-mono text-neutral-700 hover:text-neutral-900 transition-colors uppercase tracking-wider"
+        >
+          View all on HuggingFace Hub &rarr;
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {datasets.map(dataset => (
+          <DatasetCard {...dataset} />
+        ))}
+      </div>
+
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
